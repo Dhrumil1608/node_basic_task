@@ -1,9 +1,10 @@
 #!/bin/bash
 
+echo "Starting Node application"
+
 cd /var/www/node_basic_task
 
-pm2 delete node-basic-task || true
-
-pm2 start npm --name "node-basic-task" -- start
-
+pm2 start index.js --name node-basic-task
 pm2 save
+
+exit 0

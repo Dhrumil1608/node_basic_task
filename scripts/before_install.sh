@@ -1,6 +1,8 @@
 #!/bin/bash
 
-pm2 delete node-basic-task || true
+echo "Running BeforeInstall"
 
 sudo mkdir -p /var/www/node_basic_task
 sudo chown -R ubuntu:ubuntu /var/www/node_basic_task
+
+exit 0
