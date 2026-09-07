@@ -1,9 +1,6 @@
 #!/bin/bash
-
-echo "Running AfterInstall"
+chown -R ubuntu:ubuntu /var/www/node_basic_task
 
 cd /var/www/node_basic_task
 
-npm install
-
-exit 0
+sudo -u ubuntu npm install
