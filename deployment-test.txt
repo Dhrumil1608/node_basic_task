@@ -3,3 +3,4 @@ Final automatic test
 Auto deploy final test 
 Trigger test after save 
 Trigger test after save 
+Final auto deploy test 
